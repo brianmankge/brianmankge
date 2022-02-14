@@ -26,6 +26,6 @@ burger.addEventListener('click',()=>{
 
 
 }
-jQuery('body').css('width', '100vh').css('overflow-x', 'hidden');
+jQuery('body').css('width', '100%').css('overflow-x', 'hidden');
 
 navSlide(); 
