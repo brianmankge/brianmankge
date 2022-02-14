@@ -338,7 +338,7 @@
         overflow-x: hidden;
     }
     .nav-links{
-        
+        min-width: 0px;
         position: absolute;
         right: 0px;
         height: 92vh;
