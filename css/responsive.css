@@ -333,10 +333,10 @@
         font-size: 20px;
         text-transform: uppercase;
     }
-       
-    .nav-links{
-        overflow-x: hidden;
-    }
+       .nav-links{
+           overflow-x: hidden;
+       }
+    
     .nav-links{
         min-width: 0px;
         position: absolute;
