@@ -84,6 +84,16 @@
         border-radius:3px ;
         box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.2 );
     }
+    @keyframes navlinkFade{
+        from{
+            opacity: 0;
+            transform:translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transition: translateX(0px);
+        }
+    }
     .radio-group{
         display: none;
     }
@@ -155,6 +165,16 @@
        
         padding-top:60%;
      }
+     @keyframes navlinkFade{
+        from{
+            opacity: 0;
+            transform:translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transition: translateX(0px);
+        }
+    }
 }
 
 /*HOME PAGE*/
