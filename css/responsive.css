@@ -333,7 +333,9 @@
         font-size: 20px;
         text-transform: uppercase;
     }
-       
+       .nav-links{
+           overflow-x: hidden;
+       }
     
     .nav-links{
         
