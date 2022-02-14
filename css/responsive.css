@@ -334,7 +334,7 @@
         text-transform: uppercase;
     }
        
-    body{
+    .nav-links{
         overflow-x: hidden;
     }
     .nav-links{
@@ -348,7 +348,7 @@
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translateX(0%);
+        transform: translateX(100%);
         transition: transform 0.5s ease-in;
         opacity: 2;
         /*change width *
