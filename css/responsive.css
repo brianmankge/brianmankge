@@ -323,10 +323,7 @@
    /*NORMAL SCREEN*/
 
    @media  screen and (max-width:428px) {
-       body{
-        overflow-x: hidden;
-     
-       }
+  
        .footer-col{
            padding-left: 12%;
        }
