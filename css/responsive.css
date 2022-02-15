@@ -111,20 +111,21 @@
 }
 /*NORMAL PHONE*/
 @media screen and (max-width:428px){
-.nav-links{
-    overflow-x: hidden;
-}
+   .nav-links,.nav-active{
+       overflow-x: hidden;
+   }
     .nav-links{
-       
-        position:relative;
+        
+        position: absolute;
         right: 0px;
         height: 92vh;
         top:8vh;
-        background-color: rgb(65, 124, 65);
+        background-color: steelblue;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 50%;
+        transform: translateX(100%);
         transition: transform 0.5s ease-in;
         opacity: 1;
         /*change width *
