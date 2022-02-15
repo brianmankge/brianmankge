@@ -111,6 +111,33 @@
 }
 /*NORMAL PHONE*/
 @media screen and (max-width:428px){
+    body.modal-open {
+      
+        overflow-x: hidden;
+        position: fixed;
+    }
+    body {
+        
+        overflow-x: hidden;
+        overflow-y: scroll !important;
+    }
+    .nav-links{
+       
+        position:relative;
+        right: 0px;
+        height: 92vh;
+        top:8vh;
+        background-color: steelblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transition: transform 0.5s ease-in;
+        opacity: 1;
+        /*change width *
+     and add opacity
+        */
+    }
     .book{
         width: 100%;
         background-image: linear-gradient(105deg,
@@ -323,16 +350,7 @@
    /*NORMAL SCREEN*/
 
    @media  screen and (max-width:428px) {
-    body.modal-open {
-      
-        overflow-x: hidden;
-        position: fixed;
-    }
-    body {
-        
-        overflow-x: hidden;
-        overflow-y: scroll !important;
-    }
+   
   
        .footer-col{
            padding-left: 12%;
@@ -344,24 +362,7 @@
         text-transform: uppercase;
     }
       
-    .nav-links{
-        min-width: 0px;
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top:8vh;
-        background-color: steelblue;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-        opacity: 1;
-        /*change width *
-     and add opacity
-        */
-    }
+   
     
     .nav-links li a:hover{
         color: rgb(102, 26, 26);
