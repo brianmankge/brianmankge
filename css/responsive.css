@@ -111,9 +111,6 @@
 }
 /*NORMAL PHONE*/
 @media screen and (max-width:428px){
-    .container{
-        background-repeat: no-repeat;
-    }
    
     html,body{
         margin: 0;
