@@ -111,6 +111,9 @@
 }
 /*NORMAL PHONE*/
 @media screen and (max-width:428px){
+    .container{
+        background-repeat: no-repeat;
+    }
    
     html,body{
         margin: 0;
@@ -124,7 +127,7 @@
         position: absolute;
         right: 0px;
         height: 90vh;
-        top:8vh;
+        top:5vh;
         background-color: steelblue;
         display: flex;
         flex-direction: column;
