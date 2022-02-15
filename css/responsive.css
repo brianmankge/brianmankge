@@ -197,7 +197,7 @@
 
     body.modal-open {
       
-        overflow: hidden;
+        overflow-x: hidden;
         position: fixed;
     }
 
