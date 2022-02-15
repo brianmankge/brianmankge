@@ -111,23 +111,16 @@
 }
 /*NORMAL PHONE*/
 @media screen and (max-width:428px){
-    body.modal-open {
-      
-        overflow-x: hidden;
-        position: fixed;
-    }
-    body {
-        
-        overflow-x: hidden;
-        overflow-y: scroll !important;
-    }
+.nav-links{
+    overflow-x: hidden;
+}
     .nav-links{
        
         position:relative;
         right: 0px;
         height: 92vh;
         top:8vh;
-        background-color: steelblue;
+        background-color: rgb(65, 124, 65);
         display: flex;
         flex-direction: column;
         align-items: center;
